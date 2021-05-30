@@ -44,6 +44,7 @@ function setup() {
     10
   );
   ground.depth = -10;
+  ground.visible=false;
 
   obstaclesGroup = createGroup();
   bananaGroup = createGroup();
